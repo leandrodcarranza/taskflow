@@ -15,7 +15,7 @@ En esta instancia inicial de la actividad 1, el objetivo es:
 Cómo ejecutar el proyecto
 
 Clonar el repositorio:
-- git clone https://github.com/usuario/taskflow.git
+- git clone https://github.com/leandrodcarranza/taskflow
 
 Acceder a la carpeta del proyecto:
 - cd TaskFlow
