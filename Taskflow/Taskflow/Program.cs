@@ -1,10 +1,20 @@
-﻿namespace Taskflow
+﻿using System;
+
+namespace Taskflow
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string estado = "Pendiente";
+
+            Console.WriteLine("Estado actual de la tarea: " + estado);
+
+            estado = "En progreso";
+            Console.WriteLine("Estado actualizado: " + estado);
+
+            estado = "Completada";
+            Console.WriteLine("Estado final: " + estado);
         }
     }
 }
