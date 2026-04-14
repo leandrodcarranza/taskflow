@@ -1,30 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-namespace Taskflow
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            List<Tarea>ListaDePrueba = new List<Tarea> ();
+﻿using System.Formats.Tar;
 
-            Console.WriteLine("Iniciando sistema de Tareas");
-            ListarTarea(ListaDePrueba);
-        }
-        static void ListarTarea(list<Tarea> lista) 
+
+
+
+
+public class Listar_tarea
+{  
+    public string Titulo {get;set;}
+    public string Descripcion { get;set;}
+
+    public static void ListarTareas(List<Tarea>tareas) 
+    {
+        foreach (var tarea  in tareas) 
         {
-            Console.WriteLine("Lista de Tareas");
-            if (lista.Count== 0)
-            {
-                Console.WriteLine("No hay tareas registradas aun").
-            }
-            else 
-            {
-                foreach (var t in lista)
-                {
-                    Console.WriteLine($"{t.Id}{(.EstaCompletada ? "OK" : "..")}- {t.Descripcion}");
-                }
-            }
+            Console.WriteLine($"Titulo: {tarea.Titulo}");
+            Console.WriteLine($"Descripcion: {tarea.Descripcion}");
+            Console.WriteLine("-----------------------------------");
         }
     }
+    
 }
