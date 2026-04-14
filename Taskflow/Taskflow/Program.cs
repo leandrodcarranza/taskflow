@@ -6,7 +6,7 @@ namespace Taskflow
     {
         static void Main(string[] args)
         {
-            string estado = "Pendiente";
+            string estado = "Pendientes";
 
             Console.WriteLine("Estado actual de la tarea: " + estado);
 
