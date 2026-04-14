@@ -15,6 +15,7 @@ namespace Taskflow
 
             estado = "Completada";
             Console.WriteLine("Estado final: " + estado);
+            Console.WriteLine("La tarea fue completada correctamente.");
         }
     }
 }
