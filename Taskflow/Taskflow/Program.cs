@@ -1,10 +1,17 @@
 ﻿namespace Taskflow
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            GestorTareas gestor = new GestorTareas();
+
+            Console.WriteLine("Ingrese el nombre de la tarea:");
+            string nombre = Console.ReadLine();
+
+            gestor.CrearTarea(nombre);
+
+            Console.ReadKey();
         }
     }
 }
