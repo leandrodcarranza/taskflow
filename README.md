@@ -39,6 +39,7 @@ Evolución del proyecto
 Este proyecto será desarrollado en múltiples etapas:
 Etapa 1: Configuración inicial del repositorio
 Etapa 2:
+Etapa 3:
 
 Notas
 
