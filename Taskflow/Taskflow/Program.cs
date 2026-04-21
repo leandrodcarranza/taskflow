@@ -1,22 +1,21 @@
-﻿using System.Formats.Tar;
+﻿using System;
+using System.Collections.Generic;
 
-
-
-
-
-public class Listar_tarea
-{  
-    public string Titulo {get;set;}
-    public string Descripcion { get;set;}
-
-    public static void ListarTareas(List<Tarea>tareas) 
+namespace Taskflow
+{
+    public class ListarTarea
     {
-        foreach (var tarea  in tareas) 
+        public string Titulo { get; set; }
+        public string Descripcion { get; set; }
+
+        public static void ListarTareas(List<Tarea> tareas)
         {
-            Console.WriteLine($"Titulo: {tarea.Titulo}");
-            Console.WriteLine($"Descripcion: {tarea.Descripcion}");
-            Console.WriteLine("-----------------------------------");
+            foreach (var tarea in tareas)
+            {
+                Console.WriteLine($"Titulo: {tarea.Titulo}");
+                Console.WriteLine($"Descripcion: {tarea.Descripcion}");
+                Console.WriteLine("-----------------------------------");
+            }
         }
     }
-    
 }
