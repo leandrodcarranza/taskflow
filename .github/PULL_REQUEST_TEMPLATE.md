@@ -1,3 +1,4 @@
+## Descripcion
 Explica brevemente que hace este PR.
 
 ## Cambios realizados
@@ -10,5 +11,8 @@ Explica brevemente que hace este PR.
 - [ ] Probe los cambios
 - [ ] Se resolvieron conflictos
 
+## Evidencia
+(Agregar captura de pantalla del antes y el despues)
+
 ## Notas
-Detalles importantes o aclaraciones
+Detalles importantes y aclaracion de los conflictos resueltos
